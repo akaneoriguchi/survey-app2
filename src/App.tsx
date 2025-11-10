@@ -177,14 +177,14 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 p-6">
-      <div className="w-full max-w-4xl bg-white rounded-2xl shadow-lg p-6 sm:p-10">
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4">
+    <div className="min-h-screen p-4 sm:p-6 bg-white sm:bg-gradient-to-br sm:from-blue-50 sm:to-indigo-100">
+      <div className="w-full mx-auto sm:max-w-4xl sm:bg-white sm:rounded-2xl sm:shadow-lg p-4 sm:p-10 text-sm sm:text-base">
+        <h1 className="text-xl sm:text-3xl font-bold text-gray-800 mb-4">
           リブランディング前後でのロゴの印象に関するアンケート
         </h1>
 
-        <div className="bg-emerald-50 p-5 mb-8 rounded-xl shadow-sm">
-          <p className="text-gray-700 leading-relaxed text-base">
+        <div className="bg-emerald-50 p-4 sm:p-5 mb-8 rounded-xl shadow-sm">
+          <p className="text-sm sm:text-base text-gray-700 leading-relaxed">
             以下は架空のアパレルブランド「TORIA」のロゴデザインに関するアンケートです。<br />
             ブランドの方針変更や体制の見直しなどをきっかけに、ロゴを変更（＝リブランディング）したケースを想定しています。
             それぞれ<b>各説明文を読んだうえで、変更前後のロゴについてデザインの印象を7段階でお答えください。</b>
