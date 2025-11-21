@@ -27,13 +27,13 @@ type QuestionResponse = {
 };
 
 const baseQuestions: Question[] = [
-  { id: 1, title: 'Q1', logoBefore: '/logo-04.jpg', logoAfter: '/logo-13.jpg' },
-  { id: 2, title: 'Q2', logoBefore: '/logo-09.jpg', logoAfter: '/logo-23.jpg' },
-  { id: 3, title: 'Q3', logoBefore: '/logo-14.jpg', logoAfter: '/logo-21.jpg' },
-  { id: 4, title: 'Q4', logoBefore: '/logo-27.jpg', logoAfter: '/logo-28.jpg' },
-  { id: 5, title: 'Q5', logoBefore: '/logo-03.jpg', logoAfter: '/logo-17.jpg' },
-  { id: 6, title: 'Q6', logoBefore: '/logo-10.jpg', logoAfter: '/logo-30.jpg' },
-  { id: 7, title: 'Q7', logoBefore: '/logo-20.jpg', logoAfter: '/logo-22.jpg' },
+  { id: 1, title: 'Q1', logoBefore: '/logo-13.jpg', logoAfter: '/logo-04.jpg' },
+  { id: 2, title: 'Q2', logoBefore: '/logo-23.jpg', logoAfter: '/logo-09.jpg' },
+  { id: 3, title: 'Q3', logoBefore: '/logo-21.jpg', logoAfter: '/logo-14.jpg' },
+  { id: 4, title: 'Q4', logoBefore: '/logo-28.jpg', logoAfter: '/logo-27.jpg' },
+  { id: 5, title: 'Q5', logoBefore: '/logo-17.jpg', logoAfter: '/logo-03.jpg' },
+  { id: 6, title: 'Q6', logoBefore: '/logo-30.jpg', logoAfter: '/logo-10.jpg' },
+  { id: 7, title: 'Q7', logoBefore: '/logo-22.jpg', logoAfter: '/logo-20.jpg' },
 ];
 
 const contextMap: Record<number, Record<number, string | undefined>> = {
